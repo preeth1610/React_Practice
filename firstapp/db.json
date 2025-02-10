@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "Username": "preeth",
+      "dateOfBirth": "2024-02-16",
+      "gender": "on",
+      "state": "telangana",
+      "Text": "abcd",
+      "id": 1
+    },
+    {
+      "Username": "Pavan",
+      "dateOfBirth": "2024-02-15",
+      "gender": "female",
+      "state": "telangana",
+      "Text": "aopaslskv ",
+      "id": 2
+    },
+    {
+      "Username": "",
+      "dateOfBirth": "2024-02-02",
+      "gender": null,
+      "state": "telangana",
+      "Text": "",
+      "id": 3
+    }
+  ]
+}

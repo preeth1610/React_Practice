@@ -1,0 +1,55 @@
+GET http://localhost:3500/user-api/get-users
+
+###
+GET http://localhost:3500/user-api/get-users/preeth
+
+
+###
+POST http://localhost:3500/user-api/create-user
+Content-Type: application/json
+
+{
+    "id":210,
+    "name":"preeth",
+    "password":"preeth",
+    "age": 2
+
+}
+###
+POST http://localhost:3500/user-api/user-login
+Content-Type: application/json
+
+{
+    
+    "name":"preeth",
+    "password":"preeth"
+    
+
+}
+
+# ###
+# PUT http://localhost:3500/user-api/update-user
+# Content-Type: application/json
+
+# {
+#     "id":100,
+#     "name":"kiran babu",
+#    // "password":"babu"
+#     "age":20
+# }
+
+# ###
+# DELETE http://localhost:3500/user-api/delete-user/210
+
+# ###
+# GET http://localhost:3500/product-api/get-products
+
+# ###
+# POST http://localhost:3500/product-api/create-product
+
+# ###
+# DELETE http://localhost:3500/product-api/delete-product
+
+###
+GET http://localhost:3500/user-api/test
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicHJlZXRoIiwiaWF0IjoxNzE0NDA4MzQ3LCJleHAiOjE3MTQ0MDg1NDd9.a1WAKThXuQHF0X3yYSWL-3kGAZXDSNg6reuqLHHw6YA
